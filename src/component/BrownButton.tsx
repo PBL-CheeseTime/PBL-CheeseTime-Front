@@ -20,11 +20,11 @@ const Container = styled.button`
     background-color: #34221c;
   }
 
-  width: 340px;
-  height: 57px;
+  width: 420px;
+  height: 70px;
 
   /* padding: 16px 100px; */
-  font-size: 20px;
+  font-size: 25px;
 
   font-family: Sansation;
   font-weight: 700;
@@ -35,7 +35,7 @@ const Container = styled.button`
   border-radius: 10px;
   background: #5B392E;
 
-  margin-top: 40px;
+  margin-top: 60px;
   margin-left: 70px;
 
   cursor: pointer;

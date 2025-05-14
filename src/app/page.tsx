@@ -63,7 +63,7 @@ const MainTitle = styled.p`
 const SubTitle = styled.p`
   color: #000;
   font-family: Sansation;
-  font-size: 30px;
+  font-size: 40px;
   font-style: light;
   font-weight: 300;
   line-height: normal;
