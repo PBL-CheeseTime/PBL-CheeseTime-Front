@@ -5,7 +5,7 @@ type Props = {
    onClickHandler: () => void;
 };
 
-const YellowButton = ({ text, onClickHandler}: Props) => {
+const OnButton = ({ text, onClickHandler}: Props) => {
   return (
     <Container onClick={onClickHandler}>
       {text}
@@ -13,31 +13,32 @@ const YellowButton = ({ text, onClickHandler}: Props) => {
   );
 };
 
-export default YellowButton;
+export default OnButton;
 
 const Container = styled.button`
   :hover {
-    background-color: #F7B500;
+    background-color:rgb(198, 198, 198);
   }
 
-  color: #FFFFFF;
-  width: 320px;
-  height: 70px;
+  color:rgb(176, 176, 176);
+  width: 300px;
+  height: 60px;
 
   /* padding: 16px 100px; */
-  font-size: 25px;
+  font-size: 30px;
 
   font-family: Sansation;
   font-weight: 700;
 
   align-items: center;
 
-  border-radius: 20px;
-  background: #F7B500;
+  border-radius: 5px;
+  background:rgb(255, 255, 255);
 
   margin-top: 60px;
-  margin-left: 70px;
+  margin-left: 20px;
 
   cursor: pointer;
 `;
-//  align-self: stretch;
+
+  //align-self: stretch;

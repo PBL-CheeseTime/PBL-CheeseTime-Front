@@ -20,6 +20,7 @@ const Container = styled.button`
     background-color: #34221c;
   }
 
+  color: #FFFFFF;
   width: 420px;
   height: 70px;
 
@@ -30,7 +31,6 @@ const Container = styled.button`
   font-weight: 700;
 
   align-items: center;
-  align-self: stretch;
 
   border-radius: 10px;
   background: #5B392E;
@@ -40,3 +40,5 @@ const Container = styled.button`
 
   cursor: pointer;
 `;
+
+  //align-self: stretch;

@@ -1,11 +1,12 @@
 "use client";
 
 import styled from "styled-components";
-import LogoNav from "../../component/LogoNav";
 import YellowButton from "@/component/YellowButton";
 import Header from "../../component/Header";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter();
   return (
     <Container>
       <Header/>
@@ -14,12 +15,12 @@ export default function Home() {
           There&apos;s <Cheese>6</Cheese> <CheeseNum2>CHEESE!</CheeseNum2>
         </CheeseNum>
         <SubTitle>
-          Go ahead, invest your value<br/><SubTitle2>Enjoy the flavor of maturation right now!</SubTitle2>
+          Go ahead, invest your value<SubTitle2>Enjoy the flavor of maturation right now!</SubTitle2>
         </SubTitle>
       </Title>
       <YellowButton
       text="Create Bottle"
-      // onClickHandler={() => router.push("/game")}
+       onClickHandler={() => router.push("../create-Bottle")}
       />
     </Container>
   );
@@ -74,7 +75,7 @@ const CheeseNum2 = styled.span`
 const SubTitle = styled.p`
   color: rgba(248, 157, 2, 0.95);
   font-family: Sansation;
-  font-size: 70px;
+  font-size: 80px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;

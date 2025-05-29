@@ -14,13 +14,13 @@ export default function LogoNav() {
 
         <HeaderList>
           <HeaderItem>
-            <Link href="">Create Bottle</Link>
+            <Link href="/create-Bottle">Create Bottle</Link>
           </HeaderItem>
           <HeaderItem>
-            <Link href="">Manage Bottle</Link>
+            <Link href="/manage-Bottle">Manage Bottle</Link>
           </HeaderItem>
           <HeaderItem>
-            <Link href="">My Cheese</Link>
+            <Link href="/my-Cheese">My Cheese</Link>
           </HeaderItem>
         </HeaderList>
 
