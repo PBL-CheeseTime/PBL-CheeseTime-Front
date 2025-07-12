@@ -2,11 +2,11 @@
 
 import styled from "styled-components";
 import LogoNav from "../component/LogoNav"
-import BrownButton from "@/component/BrownButton";
-import { useRouter } from "next/navigation";
-
+// import BrownButton from "@/component/BrownButton";
+// import { useRouter } from "next/navigation";
+import LoginButton from "../component/LoginButton";
 export default function Home() {
-  const router = useRouter();
+  // const router = useRouter();
   return (
     <Container>
       <LogoNav/>
@@ -18,10 +18,11 @@ export default function Home() {
           Just as 🥛 milk matures into 🧀 cheese, invest your value.<br/>Store your coins safely in a vault alongside your goals,<br/>savor your principal and yield like perfectly aged cheese.<br/>Enjoy the flavor of maturation right now.
         </SubTitle>
       </Title>
-      <BrownButton
+      {/* <BrownButton
       text="Connect Wallet"
       onClickHandler={() => router.push("/main-page")}
-      />
+      /> */}
+       <LoginButton />
     </Container>
   );
 }
